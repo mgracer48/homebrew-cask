@@ -1,7 +1,8 @@
 cask :v1 => 'flash-player-debugger' do
-  version '14.0.0.176'
-  sha256 '4ea23e909aa54c130de0d7a6453409207d303523cce15c4621ad4a55e0681fcf'
+  version '16.0.0.287'
+  sha256 '025f208c1a28ad4159c61b825713edf41e0bdfa87e7bb843109aa614d39577cb'
 
+  # macromedia.com is the official download host per the vendor homepage
   url "https://fpdownload.macromedia.com/pub/flashplayer/updaters/#{version.to_i}/flashplayer_#{version.to_i}_sa_debug.dmg"
   homepage 'https://www.adobe.com/support/flashplayer/downloads.html'
   license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder

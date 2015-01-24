@@ -1,5 +1,67 @@
 # CHANGELOG
 
+## 0.53.0
+
+* __Casks__
+  - 15 Casks added (720 updated) by 100 contributors since 0.52.1
+  - 2239 total Casks
+* __Features__
+  - none
+* __Breaking Changes__
+  - [#8840][] Removed Alfred support
+  - [#8751][] Removed widget support
+* __Fixes__
+  - [#8790][],[#8869][],[#8936][] Correctly launch editor in the absence of related ENV variables
+* __Internal Changes__
+  - [#8870][] remove homebrew-fork MACOS_RELEASE constants
+  - [#8871][] increment seed for Travis tests
+* __Documentation__
+  - 12 doc commits since 0.52.1 <3 [@bronson][]
+* __Contributors__
+  - 48 new contributors since 0.52.1
+  - 1446 total contributors
+* __Release Date__
+  - 2015-01-23 11:00:00 UTC
+
+[#8751]: https://github.com/caskroom/homebrew-cask/issues/8751
+[#8790]: https://github.com/caskroom/homebrew-cask/issues/8790
+[#8840]: https://github.com/caskroom/homebrew-cask/issues/8840
+[#8869]: https://github.com/caskroom/homebrew-cask/issues/8869
+[#8870]: https://github.com/caskroom/homebrew-cask/issues/8870
+[#8871]: https://github.com/caskroom/homebrew-cask/issues/8871
+[#8936]: https://github.com/caskroom/homebrew-cask/issues/8936
+[@bronson]: https://github.com/bronson
+
+## 0.52.1
+
+* __Casks__
+  - 8 Casks added (525 updated) by 35 contributors since 0.52.0
+  - 2224 total Casks
+* __Features__
+  - none
+* __Breaking Changes__
+  - none
+* __Fixes__
+  - [#8618][] Mmore robust cask dependency calculation
+  - [#8622][] Improve error message for AIR app reinstallation
+* __Internal Changes__
+  - [#8721][], [#8724][], [#8612][], [#8611][] integrate Homebrew code into our own backend
+* __Documentation__
+  - 4 doc commits since 0.52.0 <3 [@nZac][]
+* __Contributors__
+  - 13 new contributors since 0.52.0
+  - 1398 total contributors
+* __Release Date__
+  - 2015-01-07 23:30:00 UTC
+
+[#8611]: https://github.com/caskroom/homebrew-cask/issues/8611
+[#8612]: https://github.com/caskroom/homebrew-cask/issues/8612
+[#8618]: https://github.com/caskroom/homebrew-cask/issues/8618
+[#8622]: https://github.com/caskroom/homebrew-cask/issues/8622
+[#8721]: https://github.com/caskroom/homebrew-cask/issues/8721
+[#8724]: https://github.com/caskroom/homebrew-cask/issues/8724
+[@nZac]: https://github.com/nZac
+
 ## 0.52.0
 
 * __Casks__
